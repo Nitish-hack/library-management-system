@@ -1,0 +1,88 @@
+.register-container {
+  width: 100%;
+  display: flex;
+}
+
+.companyName {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.image-container {
+  width: 40%;
+}
+
+.form-container {
+  padding-top: 20px;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  width: 60%;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+
+
+.container h1 {
+  font-size: 2rem;
+  color: #293241;
+  margin-bottom: 2rem;
+}
+
+
+
+.form-row p {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-row input {
+  border: 2px solid rgba(29, 53, 87, 0.8);
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.container .form-row {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.container button {
+  color: #fff;
+  width: 100%;
+  font-size: 1.2rem;
+  background: rgb(30, 136, 229);
+  background: linear-gradient(90deg, rgba(30, 136, 229, 1) 16%, rgba(252, 69, 69, 1) 100%);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  padding: 0.7rem 1.2rem;
+  margin-top: 0.8rem;
+}
+
+.container button:hover {
+  background: rgba(29, 53, 87, 0.8);
+}
+
+.container .input-error {
+  border-color: #e63946;
+}
+
+.container .error {
+  color: #e63946;
+  font-size: 1rem;
+
+}
+
+.container .disabled-btn {
+  cursor: not-allowed;
+  background: rgba(29, 53, 87, 0.8);
+}
